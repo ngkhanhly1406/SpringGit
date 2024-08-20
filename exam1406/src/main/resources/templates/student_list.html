@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Student List</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<h1>Student List</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Student Code</th>
+        <th>Full Name</th>
+        <th>Address</th>
+        <th>Subject Name</th>
+        <th>Credit</th>
+        <th>Score 1</th>
+        <th>Score 2</th>
+        <th>Grade</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="student : ${students}">
+        <td th:text="${student.studentCode}">Student Code</td>
+        <td th:text="${student.fullName}">Full Name</td>
+        <td th:text="${student.address}">Address</td>
+        <td>--</td>
+        <td>--</td>
+        <td>--</td>
+        <td>--</td>
+        <td>--</td>
+        <td><a th:href="@{/scores/new}">Add Score</a></td>
+    </tr>
+    <tr th:each="score : ${scores}">
+        <td th:text="${score.student.studentCode}">Student Code</td>
+        <td th:text="${score.student.fullName}">Full Name</td>
+        <td th:text="${score.student.address}">Address</td>
+        <td th:text="${score.subject.subjectName}">Subject Name</td>
+        <td th:text="${score.subject.credit}">Credit</td>
+        <td th:text="${score.score1}">Score 1</td>
+        <td th:text="${score.score2}">Score 2</td>
+        <td th:text="${score.grade}">Grade</td>
+        <td><a th:href="@{/scores/new}">Add Score</a></td>
+    </tr>
+    </tbody>
+</table>
+<a th:href="@{/students/new}">Add Student</a>
+</body>
+</html>

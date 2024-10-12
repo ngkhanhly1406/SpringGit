@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Save FeedBack</title>
+</head>
+<body>
+<div class="container">
+    <h1>Feedback List</h1>
+    <a href="/feedback/add">Add New Feedback</a>
+    <table>
+        <thead>
+        <tr>
+            <th>Feedback ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Subject</th>
+            <th>Message</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="feedback : ${feedbacks}">
+            <td th:text="${feedback.feedbackid}"></td>
+            <td th:text="${feedback.name}"></td>
+            <td th:text="${feedback.email}"></td>
+            <td th:text="${feedback.subject}"></td>
+            <td th:text="${feedback.message}"></td>
+
+            <td>
+                <div class="row">
+                    <div class="col-small">
+                        <a th:href="@{/feeedback/edit/{id}(id=${feedback.feedbackid})}">
+                            <button type="submit" class="btn btn-info btn-sm">
+                                Update
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-small">
+                        <a th:href="@{/feeedback/delete/{id}(id=${feedback.feedbackid})}">
+                            <button type="submit" class="btn btn-danger btn-sm"
+                                    onclick="if (!(confirm('Are you sure you want to delete this feedback ?'))) return false;">
+                                Delete
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </td>
+
+
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4866399e-d6d2-48f3-8f7f-a08422acd114" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo2004/src/main/java/khly/codelean/demo2004/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2004/src/main/java/khly/codelean/demo2004/model/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2004/src/main/java/khly/codelean/demo2004/model/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2004/src/main/java/khly/codelean/demo2004/model/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo999/src/main/java/khly/codelean/demo999/controller/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo999/src/main/java/khly/codelean/demo999/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo999/src/main/java/khly/codelean/demo999/models/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo999/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld/lib/app_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld/lib/counter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld/lib/my_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld/lib/product.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld/lib/tutorial_home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/src/main/java/khly/codelean/login/controller/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/src/main/java/khly/codelean/login/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/src/main/java/khly/codelean/login/models/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/src/main/java/khly/codelean/login/models/UserRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/src/test/java/khly/codelean/login/models/UserRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/src/main/java/khly/codelean/project2/login/CustomSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/src/main/resources/static/shopping-cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/src/main/resources/static/wishlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/admin/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringSecurity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringSecurity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1406/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1406/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1406/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1406/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1406/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1406/src/main/java/khly/codelean/project1406/Controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1406/src/main/java/khly/codelean/project1406/Project1406Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1406/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1406/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1406/src/test/java/khly/codelean/project1406/Project1406ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/java/khly/codelean/project2/admin/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/java/khly/codelean/project2/admin/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/java/khly/codelean/project2/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/java/khly/codelean/project2/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/static/blog-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/static/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/static/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/static/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/static/my-account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/static/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/static/shop-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/static/shopleftsidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/about-us.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/blog-details-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/blog-details-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/blog-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/blog-no-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/blog-no-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/blog-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/my-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/my-account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/product-details-gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/product-details-sticky-content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/product-details-thumbnail-right.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/product-details-thumbnail-right.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/product-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/shop-3-column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/shop-4-column.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/shop-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/shop-list-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/shop-list-no-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/src/main/resources/templates/shop-list-no-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/shop-list-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/shop-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/shopping-cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/src/main/resources/templates/wishlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/src/main/java/khly/codelean/project22/Project22Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/src/main/java/khly/codelean/project22/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/src/main/resources/static/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/src/main/resources/static/indexx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project22/src/test/java/khly/codelean/project22/Project22ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2muRRZNIIGdz4buSCF2sNg2TYJ1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/SEM4/Spring/SpringGit/project24/project2",
+    "nodejs_package_manager_path": "npm",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4866399e-d6d2-48f3-8f7f-a08422acd114" name="Changes" comment="" />
+      <created>1727924467343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727924467343</updated>
+      <workItem from="1727924468361" duration="117000" />
+      <workItem from="1727924627168" duration="25000" />
+      <workItem from="1727924685080" duration="95000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

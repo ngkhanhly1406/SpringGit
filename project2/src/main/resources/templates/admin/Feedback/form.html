@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Save Feedback</title>
+</head>
+<body>
+<div class="container">
+    <h1 th:text="${feedback == null} ? 'Add New Feedback' : 'Edit Feedback'"></h1>
+    <form th:action="@{/feedback/save}" th:object="${feedback}" method="post" enctype="multipart/form-data">
+        <input type="hidden" th:field="*{feedbackid}"/>
+
+        <input type="text" th:field="*{name}" class="form-control mb-4 col-4" placeholder="Name">
+        <input type="text" th:field="*{email}" class="form-control mb-4 col-4" placeholder="Email">
+        <input type="text" th:field="*{subject}" class="form-control mb-4 col-4" placeholder="Subject">
+        <input type="text" th:field="*{message}" class="form-control mb-4 col-4" placeholder="Message">
+
+        <button type="submit">Save</button>
+    </form>
+    <a href="/feedback/list">Back to list</a>
+</div>
+</body>
+</html>

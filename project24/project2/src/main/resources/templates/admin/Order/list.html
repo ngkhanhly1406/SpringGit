@@ -1,0 +1,80 @@
+<html>
+<head>
+    <div th:replace="~{/admin/shared/header :: header}"/>
+</head>
+
+<body>
+
+
+
+<div class="wrapper">
+    <!-- Sidebar -->
+    <div th:replace="~{/admin/shared/header :: sidebar}"/>
+    <!-- End Sidebar -->
+
+    <div class="main-panel">
+        <!-- Navbar Header -->
+        <div th:replace="~{/admin/shared/header :: navbar-header}"/>
+
+        <!-- End Navbar -->
+        <div class="container">
+            <h3>Order Directory</h3>
+            <hr>
+
+            <a href="/order/add"
+               class="btn btn-primary btn-sm mb-3"
+            >Add Order
+            </a>
+
+            <table class="table table-bordered table-striped">
+                <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>CustomerId</th>
+                    <th>Order Date</th>
+                    <th>Total Amount</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="tempOrder: ${orders}">
+                    <td th:text="${tempOrder.orderid}" />
+                    <td th:text="${tempOrder.customer.customerid}" />
+                    <td th:text="${tempOrder.order_date}" />
+                    <td th:text="${tempOrder.total_amount}" />
+                    <td th:text="${tempOrder.status}" />
+                    <td>
+                        <div class="row">
+                            <div class="col-small">
+                                <a th:href="@{/order/edit/{id}(id=${tempOrder.orderid})}">
+                                    <button type="submit" class="btn btn-info btn-sm">
+                                        Update
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="col-small">
+                                <a th:href="@{/order/delete/{id}(id=${tempOrder.orderid})}">
+                                    <button type="submit" class="btn btn-danger btn-sm"
+                                            onclick="if (!(confirm('Are you sure you want to delete this feedback ?'))) return false;">
+                                        Delete
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Footer -->
+        <div th:replace="~{/admin/shared/footer :: footer}"/>
+
+    </div>
+</div>
+
+<!--   Core JS Files   -->
+<div th:replace="~{/admin/shared/header :: script}"/>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <div th:replace="~{/admin/shared/header :: header}"/>
+</head>
+<body>
+
+<div class="wrapper">
+    <!-- Sidebar -->
+    <div th:replace="~{/admin/shared/header :: sidebar}"/>
+    <!-- End Sidebar -->
+
+    <div class="main-panel">
+        <!-- Navbar Header -->
+        <div th:replace="~{/admin/shared/header :: navbar-header}"/>
+
+        <!-- End Navbar -->
+        <div class="container">
+            <h3>Customer Directory</h3>
+            <hr>
+            <p class="h4 mb-4">Save Customer</p>
+            <h1 th:text="${customer == null} ? 'Add New Customer' : 'Edit Customer'"></h1>
+
+            <form action="#" th:action="@{/customer/save}" th:object="${customer}" method="POST" enctype="multipart/form-data">
+                <!-- Add hidden form field to handle update -->
+                <input type="hidden" th:field="*{customerid}" />
+
+                <input type="text" th:field="*{name}"
+                       class="form-control mb-4 col-4" placeholder="Name">
+                <input type="text" th:field="*{email}"
+                       class="form-control mb-4 col-4" placeholder="Email">
+                <input type="text" th:field="*{phone}"
+                       class="form-control mb-4 col-4" placeholder="Phone">
+                <input type="text" th:field="*{address}"
+                       class="form-control mb-4 col-4" placeholder="Address">
+                <button type="submit" class="btn btn-info col-2">Save</button>
+            </form>
+            <hr>
+            <a href="/customer/list">Back to Customer List</a>
+
+        </div>
+
+        <!-- Footer -->
+        <div th:replace="~{/admin/shared/footer :: footer}"/>
+
+    </div>
+</div>
+
+<!--   Core JS Files   -->
+<div th:replace="~{/admin/shared/header :: script}"/>
+</body>
+
+</html>

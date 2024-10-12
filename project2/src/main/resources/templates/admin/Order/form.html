@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <div th:replace="~{/admin/shared/header :: header}"/>
+</head>
+<body>
+
+
+<div class="wrapper">
+    <!-- Sidebar -->
+    <div th:replace="~{/admin/shared/header :: sidebar}"/>
+    <!-- End Sidebar -->
+
+    <div class="main-panel">
+        <!-- Navbar Header -->
+        <div th:replace="~{/admin/shared/header :: navbar-header}"/>
+
+        <!-- End Navbar -->
+        <div class="container">
+            <h3>Order Directory</h3>
+            <hr>
+            <p class="h4 mb-4">Save Order</p>
+            <h1 th:text="${order == null} ? 'Add New Order' : 'Edit Order'"></h1>
+
+            <form action="#" th:action="@{/order/save}" th:object="${order}" method="POST">
+                <!-- Add hidden form field to handle update -->
+                <input type="hidden" th:field="*{orderid}" />
+
+                <!-- Customer Selection Dropdown -->
+                <select th:field="*{customer.customerid}" class="form-control mb-4 col-4">
+                    <option th:each="customer : ${customers}" th:value="${customer.customerid}" th:text="${customer.name}"></option>
+                </select>
+
+                <input type="date" th:field="*{order_date}" class="form-control mb-4 col-4" placeholder="Order Date">
+                <input type="text" th:field="*{total_amount}" class="form-control mb-4 col-4" placeholder="Total Amount">
+                <input type="text" th:field="*{status}" class="form-control mb-4 col-4" placeholder="Status">
+
+                <button type="submit" class="btn btn-info col-2">Save</button>
+            </form>
+
+            <hr>
+            <a href="/order/list">Back to Order List</a>
+        </div>
+
+        <!-- Footer -->
+        <div th:replace="~{/admin/shared/footer :: footer}"/>
+
+    </div>
+</div>
+
+<!--   Core JS Files   -->
+<div th:replace="~{/admin/shared/header :: script}"/>
+</body>
+</html>
